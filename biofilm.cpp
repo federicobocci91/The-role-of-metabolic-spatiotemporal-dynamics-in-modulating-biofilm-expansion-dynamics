@@ -105,8 +105,8 @@ int main()
 	double r_0 = g_h/d_a;
 	
 	double b_height = 6.;             // biofilm height
-    double k = 11.25*b_height/D_A;   // k = 11.25; 6 = biofilm height
-    double R0=0.0001/r_0;             // housekeeping proteins threshold for growth
+    	double k = 11.25*b_height/D_A;   // k = 11.25; 6 = biofilm height
+    	double R0=0.0001/r_0;             // housekeeping proteins threshold for growth
 
 	// shaprness of interior-periphery transition
 	double l_0 = 1.5/l;
